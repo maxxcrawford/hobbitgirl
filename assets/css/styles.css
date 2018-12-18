@@ -417,5 +417,10 @@ template {
     Main CSS
     ===========================
 */
+.durin {
+  background: #000;
+  color: #fff; }
+  .durin button {
+    color: #fff; }
 
 /*# sourceMappingURL=styles.css.map */
