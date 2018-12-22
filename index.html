@@ -14,13 +14,15 @@
 <body class="durin">
     <!-- Put HTML Here -->
 		<div class="container mx-auto px-4 text-center">
-			<h1>Doors of Durin</h1>
-			<p>Ennyn Durin Aran Moria. Pedo Mellon a Minno. Im Narvi hain echant. Celebrimbor o Eregion teithant i thiw hin.</p>
-			<img class="block mx-auto my-8" src="assets/img/durin.gif" alt="">
+			<h1 class="mt-8">Doors of Durin</h1>
+			<p class="max-w-sm mx-auto">Ennyn Durin Aran Moria. Pedo Mellon a Minno. Im Narvi hain echant. Celebrimbor o Eregion teithant i thiw hin.</p>
+			<img class="block mx-auto max-w-xs my-8" src="assets/img/durin.gif" alt="">
 			<form id="durin">
-				<label>Enter your passcode</label>
-				<input type="password" id="password" name="password" value="">
-				<button type="submit">Enter</button>
+        <div class="pwd-error js-durin-form-message hidden">
+          <em>That is incorrect. Please try again.</em>
+        </div>
+				<input type="password" id="password" placeholder="password" name="password" value=""><br>
+				<button type="submit">enter</button>
 			</form>
 		</div>
 

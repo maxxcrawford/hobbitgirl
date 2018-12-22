@@ -12,6 +12,7 @@
  */
 /* Document
    ========================================================================== */
+@import url("https://fonts.googleapis.com/css?family=Averia+Libre");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -418,9 +419,18 @@ template {
     ===========================
 */
 .durin {
-  background: #000;
+  background: url("../img/durin-stone.jpg") repeat #000;
+  font-family: 'Averia Libre', cursive;
   color: #fff; }
+  .durin input {
+    display: block;
+    margin: 1em auto 0;
+    padding: 0.25em;
+    text-align: center; }
   .durin button {
-    color: #fff; }
+    background: #5CD2CF;
+    color: #000;
+    display: inline-block;
+    padding: 0.5em 1em; }
 
 /*# sourceMappingURL=styles.css.map */

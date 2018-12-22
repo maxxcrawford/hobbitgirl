@@ -8,7 +8,7 @@
 			if (answer.toLowerCase() == 'Mellon' || answer.toLowerCase() == 'friend') {
 				window.location.href = 'homepage.html';
 			} else {
-				alert('Please check your passcode and try again');
+				$('.js-durin-form-message').removeClass('hidden');
 			}
 		};
 
