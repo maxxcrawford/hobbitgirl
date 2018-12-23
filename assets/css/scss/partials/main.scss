@@ -1,0 +1,24 @@
+.homepage {
+    background: url("../img/bg-shire.jpg")  center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.date-time {
+    border-bottom: 2px solid $gray;
+}
+
+.ads fieldset {
+    legend {
+        padding: 0 5px;
+    }
+}
+
+.border-wrapper {
+    border-left: 2px solid $gray;
+    border-right: 2px solid $gray;
+}
+
+a {
+    color: $green;
+}
