@@ -454,6 +454,9 @@ img {
 
 .ads fieldset legend {
   padding: 0 5px; }
+.ads fieldset a {
+  display: block;
+  margin-bottom: 0.7em; }
 
 .border-wrapper {
   border-left: 2px solid #999999;
