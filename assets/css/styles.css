@@ -440,7 +440,7 @@ aside nav li {
     text-decoration: none;
     color: #003300; }
 
-.homepage {
+body {
   background: url("../img/bg-shire.jpg") center center no-repeat;
   background-size: cover;
   background-attachment: fixed; }
@@ -457,6 +457,52 @@ aside nav li {
 
 a {
   color: #003300; }
+  a.back {
+    font-size: 1em;
+    display: block;
+    padding: 0 0 0.5em; }
+
+p {
+  display: block;
+  margin: 0 0 1em;
+  padding: 0; }
+
+.story-wrapper h2 {
+  font-size: 1.2em; }
+
+.story {
+  padding-top: 1em;
+  padding-bottom: 0;
+  margin-bottom: 2em;
+  border-bottom: 2px solid #999999; }
+  .story h1 {
+    color: #003300;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+    line-height: 1em; }
+  .story .meta {
+    padding: 0.5em 0 0;
+    display: block;
+    margin-bottom: 1em; }
+  .story a {
+    text-decoration: underline; }
+
+.movies h3 {
+  background: #003300;
+  color: #fff;
+  text-transform: uppercase;
+  padding: .5em;
+  margin-bottom: 0.25em;
+  line-height: 1em;
+  font-size: 1.75em; }
+.movies .story {
+  border: none; }
+
+.feed article h1 {
+  font-size: 1.25em;
+  margin: 0;
+  padding: 0; }
 
 .durin {
   background: url("../img/durin-stone.jpg") repeat #000;
@@ -472,5 +518,13 @@ a {
     color: #000;
     display: inline-block;
     padding: 0.5em 1em; }
+
+footer .footer-wrapper {
+  border-top: solid 2px #999999;
+  max-width: 746px;
+  padding-bottom: 1em; }
+footer p {
+  font-size: 0.7em;
+  line-height: 1.1em; }
 
 /*# sourceMappingURL=styles.css.map */
