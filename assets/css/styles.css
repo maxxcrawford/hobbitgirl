@@ -445,6 +445,10 @@ body {
   background-size: cover;
   background-attachment: fixed; }
 
+img {
+  display: block;
+  max-width: 100%; }
+
 .date-time {
   border-bottom: 2px solid #999999; }
 
