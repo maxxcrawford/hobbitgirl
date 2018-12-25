@@ -473,8 +473,7 @@ p {
 .story {
   padding-top: 1em;
   padding-bottom: 0;
-  margin-bottom: 2em;
-  border-bottom: 2px solid #999999; }
+  margin-bottom: 2em; }
   .story h1 {
     color: #003300;
     font-size: 1.5em;
@@ -487,6 +486,8 @@ p {
     margin-bottom: 1em; }
   .story a {
     text-decoration: underline; }
+  .story ul li {
+    padding: 0 0 1em; }
 
 .movies h3 {
   background: #003300;

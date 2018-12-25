@@ -44,7 +44,7 @@ p {
     padding-top: 1em;
     padding-bottom: 0;
     margin-bottom: 2em;
-    border-bottom: 2px solid $gray;
+    // border-bottom: 2px solid $gray;
     h1 {
         color: $green;
         font-size: 1.5em;
@@ -60,6 +60,11 @@ p {
     }
     a {
         text-decoration: underline;
+    }
+    ul {
+        li {
+            padding: 0 0 1em;
+        }
     }
 
 }
